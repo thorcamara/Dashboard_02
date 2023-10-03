@@ -25,3 +25,15 @@
 .bx {
   font-size: 1.7rem;
 }
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  overflow-x: hidden;
+}
