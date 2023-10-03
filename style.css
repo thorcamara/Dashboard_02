@@ -81,3 +81,19 @@ body {
   padding-bottom: 20px;
   box-sizing: content-box;
 }
+
+.sidebar .logo .logo-name span {
+  color: var(--dark);
+}
+
+.sidebar .logo .bx {
+  min-width: 60px;
+  display: flex;
+  justify-content: center;
+  font-size: 2.2rem;
+}
+
+.sidebar .side-menu {
+  width: 100%;
+  margin-top: 48px;
+}
