@@ -152,3 +152,19 @@ body {
 .sidebar .side-menu li.active a {
   color: var(--success);
 }
+
+.sidebar.close .side-menu li a {
+  width: calc(48px - (4px * 2));
+  transition: all 0.3s ease;
+}
+
+.sidebar .side-menu li a .bx {
+  min-width: calc(60px - ((4px + 6px) * 2));
+  display: flex;
+  font-size: 1.6rem;
+  justify-content: center;
+}
+
+.sidebar .side-menu li a.logout {
+  color: var(--danger);
+}
