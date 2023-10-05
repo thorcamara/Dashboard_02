@@ -321,3 +321,20 @@ body {
   grid-gap: 16px;
   flex-wrap: wrap;
 }
+
+.content main .header .left h1 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--dark);
+}
+
+.content main .header .left .breadcrumb {
+  display: flex;
+  align-items: center;
+  grid-gap: 16px;
+}
+
+.content main .header .left .breadcrumb li {
+  color: var(--dark);
+}
