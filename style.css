@@ -403,3 +403,18 @@ body {
   background: var(--light-success);
   color: var(--success);
 }
+
+.content main .insights li:nth-child(4) .bx {
+  background: var(--light-danger);
+  color: var(--danger);
+}
+
+.content main .insights li .info h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.content main .insights li .info p {
+  color: var(--dark);
+}
