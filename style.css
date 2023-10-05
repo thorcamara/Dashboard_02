@@ -388,3 +388,18 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.content main .insights li:nth-child(1) .bx {
+  background: var(--light-primary);
+  color: var(--primary);
+}
+
+.content main .insights li:nth-child(2) .bx {
+  background: var(--light-warning);
+  color: var(--warning);
+}
+
+.content main .insights li:nth-child(3) .bx {
+  background: var(--light-success);
+  color: var(--success);
+}
