@@ -456,3 +456,19 @@ body {
   flex-grow: 1;
   flex-basis: 500px;
 }
+
+.content main .bottom-data .orders table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.content main .bottom-data .orders table th {
+  padding-bottom: 12px;
+  font-size: 13px;
+  text-align: left;
+  border-bottom: 1px solid var(--grey);
+}
+
+.content main .bottom-data .orders table td {
+  padding: 16px 0;
+}
