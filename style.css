@@ -540,3 +540,15 @@ body {
   display: flex;
   align-items: center;
 }
+
+.content main .bottom-data .reminders .task-list li .task-title p {
+  margin-left: 6px;
+}
+
+.content main .bottom-data .reminders .task-list li .bx {
+  cursor: pointer;
+}
+
+.content main .bottom-data .reminders .task-list li.completed {
+  border-left: 10px solid var(--success);
+}
