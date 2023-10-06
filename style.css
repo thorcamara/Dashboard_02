@@ -520,3 +520,23 @@ body {
   flex-grow: 1;
   flex-basis: 300px;
 }
+
+.content main .bottom-data .reminders .task-list {
+  width: 100%;
+}
+
+.content main .bottom-data .reminders .task-list li {
+  width: 100%;
+  margin-bottom: 16px;
+  background: var(--grey);
+  padding: 14px 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content main .bottom-data .reminders .task-list li .task-title {
+  display: flex;
+  align-items: center;
+}
